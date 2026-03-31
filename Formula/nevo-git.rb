@@ -7,6 +7,8 @@ class NevoGit < Formula
 
   def install
     (share/"nevo-git").install "nevo-git.zsh"
+    (share/"nevo-git").install "git-diff-merge-wrapper.sh"
+    chmod 0755, share/"nevo-git/git-diff-merge-wrapper.sh"
   end
 
   def caveats
