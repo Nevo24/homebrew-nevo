@@ -6,7 +6,7 @@ class NevoGit < Formula
   license "MIT"
 
   def install
-    share.install "nevo-git.zsh" => "nevo-git/nevo-git.zsh"
+    (share/"nevo-git").install "nevo-git.zsh"
   end
 
   def caveats
