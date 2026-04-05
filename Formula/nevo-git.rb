@@ -1,8 +1,8 @@
 class NevoGit < Formula
   desc "Git aliases, branch helpers, and worktree management for zsh"
   homepage "https://github.com/Nevo24/nevo-git"
-  url "https://github.com/Nevo24/nevo-git/archive/refs/tags/v0.1.20.tar.gz"
-  sha256 "5526d372c723348ba094b858423a5beffb1f756ddbc4bf2cac7df2de3dac0f63"
+  url "https://github.com/Nevo24/nevo-git/archive/refs/tags/v0.1.21.tar.gz"
+  sha256 "487565a0098fce32f061b3afb59a69b926d350fd82d18b6e128f9f976444436d"
   license "MIT"
 
   def install
